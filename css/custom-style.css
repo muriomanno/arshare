@@ -13,21 +13,23 @@ header {
     text-align: center;
 }
 
-.logo-container {
+.header-container {
     display: flex;
+    flex-direction: column; /* Posiziona il logo sopra il titolo */
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    margin-top: 20px; /* Distanza dal bordo superiore */
 }
 
 .logo {
-    height: 50px; /* Altezza regolabile in base al logo */
-    width: auto;
+    height: 20px; /* Altezza del logo a 20px */
+    width: auto; /* La larghezza si adatta automaticamente mantenendo il rapporto di aspetto */
 }
 
 h1 {
     font-size: 1.8em;
     margin: 0;
+    margin-top: 10px; /* Distanza tra il logo e il titolo */
 }
 
 /* Contenitore delle schede */
