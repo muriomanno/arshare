@@ -7,10 +7,22 @@ body {
 }
 
 header {
-    text-align: center;
-    background: #4a90e2;
-    color: #fff;
+    background-color: #4a4a4a; /* Grigio professionale */
+    color: #ffffff;
     padding: 1em 0;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.logo {
+    height: 50px; /* Altezza regolabile in base al logo */
+    width: auto;
 }
 
 h1 {
